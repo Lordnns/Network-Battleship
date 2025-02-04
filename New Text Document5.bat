@@ -18,23 +18,15 @@ echo Processing files for part %part%...
 REM === List All Files Recursively ===
 for /r %%F in (*) do (
     set "FILE=%%F"
-
-    REM === Skip Files Ignored by .gitignore ===
-    git check-ignore -q "!FILE!" >nul 2>&1
-    if !errorlevel! == 0 (
-        echo [SKIP] Ignored by .gitignore: !FILE! >> %LOG_FILE%
-        set "FILE="
-    )
-
-    REM === Skip Locked Files Without Stopping ===
-    >nul 2>&1 ( >>"!FILE!" (call )) || (
-        echo [SKIP] Locked file: !FILE! >> %LOG_FILE%
-        set "FILE="
-    )
+    echo %%F
 
     REM === Process Only Valid Files ===
     if not "!FILE!"=="" (
         set /a FILE_SIZE=%%~zF
+
+    	echo Processing: !FILE! (!FILE_SIZE! bytes)
+    	echo Processing: !FILE! (!FILE_SIZE! bytes) >> %LOG_FILE%
+
         set /a TEST_TOTAL=!TOTAL! + !FILE_SIZE!
 
         if !TEST_TOTAL! LEQ %LIMIT% (
