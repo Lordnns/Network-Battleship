@@ -1,0 +1,70 @@
+Processing files for part 1... 
+[SKIP] Locked file: G:\Git Repos For Portfolio\Network Battleship\.git\objects\58\cbc8256e87c2d9c81893bdde79c0c781a011d0 
+All files processed successfully 
+Processing files for part 1... 
+Processing files for part 1... 
+Added: G:\Git Repos For Portfolio\Network Battleship\.gitignore (Total: 1356 bytes
+[INFO] Size limit reached. Committing part 1... 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.vsconfig
+	Assets/
+	New Text Document.bat
+	New Text Document1.bat
+	New Text Document2.bat
+	New Text Document3.bat
+	New Text Document4.bat
+	New Text Document5.bat
+	Packages/
+	ProjectSettings/
+	Push_In_Chunk_Git.bat
+	README.md
+	push_log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+[ERROR] Commit failed. 
+Added: G:\Git Repos For Portfolio\Network Battleship\.vsconfig (Total: 1458 bytes
+[INFO] Size limit reached. Committing part 1... 
+[main 88473d1] Part 1 commit
+ 1 file changed, 6 insertions(+)
+ create mode 100644 .vsconfig
+To https://github.com/Lordnns/Network-Battleship.git
+   e940552..88473d1  main -> main
+[SUCCESS] Part 1 pushed successfully 
+Added to new commit: G:\Git Repos For Portfolio\Network Battleship\.vsconfig (Total: 102 bytes
+Added: G:\Git Repos For Portfolio\Network Battleship\New Text Document.bat (Total: 3149 bytes
+[INFO] Size limit reached. Committing part 1... 
+[main 8f4179f] Part 2 commit
+ 1 file changed, 100 insertions(+)
+ create mode 100644 New Text Document.bat
+To https://github.com/Lordnns/Network-Battleship.git
+   88473d1..8f4179f  main -> main
+[SUCCESS] Part 2 pushed successfully 
+Added to new commit: G:\Git Repos For Portfolio\Network Battleship\New Text Document.bat (Total: 3047 bytes
+Added: G:\Git Repos For Portfolio\Network Battleship\New Text Document1.bat (Total: 5163 bytes
+[INFO] Size limit reached. Committing part 1... 
+[main a37a708] Part 3 commit
+ 1 file changed, 80 insertions(+)
+ create mode 100644 New Text Document1.bat
+To https://github.com/Lordnns/Network-Battleship.git
+   8f4179f..a37a708  main -> main
+[SUCCESS] Part 3 pushed successfully 
+Added to new commit: G:\Git Repos For Portfolio\Network Battleship\New Text Document1.bat (Total: 2116 bytes
+Added: G:\Git Repos For Portfolio\Network Battleship\New Text Document2.bat (Total: 4977 bytes
+[INFO] Size limit reached. Committing part 1... 
+[main f3b3805] Part 4 commit
+ 1 file changed, 107 insertions(+)
+ create mode 100644 New Text Document2.bat
+^CProcessing files for part 1... 
+Added: G:\Git Repos For Portfolio\Network Battleship\.gitignore (Total: 1356 bytes
+Added: G:\Git Repos For Portfolio\Network Battleship\.vsconfig (Total: 1458 bytes
+Added: G:\Git Repos For Portfolio\Network Battleship\New Text Document.bat (Total: 4505 bytes
+Added: G:\Git Repos For Portfolio\Network Battleship\New Text Document1.bat (Total: 6621 bytes
+Added: G:\Git Repos For Portfolio\Network Battleship\New Text Document2.bat (Total: 9482 bytes
+Added: G:\Git Repos For Portfolio\Network Battleship\New Text Document3.bat (Total: 12342 bytes
+Added: G:\Git Repos For Portfolio\Network Battleship\New Text Document4.bat (Total: 15063 bytes
+Added: G:\Git Repos For Portfolio\Network Battleship\New Text Document5.bat (Total: 18214 bytes
+Added: G:\Git Repos For Portfolio\Network Battleship\Push_In_Chunk_Git.bat (Total: 20329 bytes
